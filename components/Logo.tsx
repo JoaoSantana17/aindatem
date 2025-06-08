@@ -9,7 +9,7 @@ export default function Logo() {
         viewBox="0 0 64 64"
         fill="none"
         className="drop-shadow-md"
-      >
+      > 
     
         <path
           d="M32 2C17 10 8 20 8 35c0 15 9 25 24 27 15-2 24-12 24-27 0-15-9-25-24-33z"
