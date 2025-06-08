@@ -12,7 +12,7 @@ export default function DashboardHeader({ userName, userType }: Props) {
 
   const handleLogout = () => {
     localStorage.removeItem('user');
-    router.push('/');
+    router.push('/');  
   };
 
   return (
