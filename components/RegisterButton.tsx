@@ -8,7 +8,7 @@ export default function RegisterButton() {
   const handleClick = () => {
     router.push('/dashboard/cadastrar');
   };
-
+ 
   return (
     <button
       onClick={handleClick}
