@@ -29,11 +29,11 @@ export default function CadastroPage() {
       const data = await response.json();
 
       if (response.ok) {
-        // Salva no localStorage
+       
         localStorage.setItem('user', JSON.stringify({
           nome,
           email,
-          tipo: 'Cidadão', // ajuste se precisar diferenciar
+          tipo: 'Cidadão', 
         }));
 
         setSucesso('Usuário cadastrado com sucesso!');
@@ -73,7 +73,7 @@ export default function CadastroPage() {
             className="w-full px-4 py-3 rounded-xl border-2 border-gray-300 bg-white text-gray-900 focus:border-blue-500"
             disabled={loading}
           />
- 
+
           <input
             type="password"
             value={senha}
