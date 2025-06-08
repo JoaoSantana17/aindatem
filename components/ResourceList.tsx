@@ -49,7 +49,7 @@ export default function ResourceList({ recursos }: Props) {
       </section>
 
       {recursoSelecionado && (
-        <ResourceModal
+        <ResourceModal 
           recurso={recursoSelecionado}
           onClose={() => setRecursoSelecionado(null)}
         />
