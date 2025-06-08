@@ -10,7 +10,7 @@ import ResourceList from '../components/ResourceList';
 interface Recurso {
   nome: string;
   tipo: string;
-  fonte: string;
+  fonte: string; 
   distancia: number;
   latitude?: number;
   longitude?: number;
