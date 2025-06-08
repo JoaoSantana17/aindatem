@@ -68,7 +68,7 @@ export default function CadastrarRecursoPage() {
       const res = await fetch('https://aindatem-api.vercel.app/recursos', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(novoRecurso),
+        body: JSON.stringify(novoRecurso), 
       });
 
       if (res.ok) {
