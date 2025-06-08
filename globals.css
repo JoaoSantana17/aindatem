@@ -18,7 +18,7 @@
     --background: #d3e4c3bd;
     --foreground: #cfcfcf;
   }
-}
+} 
 
 body {
   background: var(--background);
