@@ -10,7 +10,7 @@ type Recurso = {
   horario?: string;
   latitude?: number;
   longitude?: number;
-};
+}; 
 
 type Props = {
   recurso: Recurso;
